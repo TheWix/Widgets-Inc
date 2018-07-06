@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/Common.Types.fs" />
+    <Compile Include="**/Common.Functions.fs" />
+    <Compile Include="**/OrderTaking.Types.fs" />
+    <Compile Include="**/OrderTaking.Functions.fs" />
+    <Compile Include="**/Shipping.Types.fs" />
+    <Compile Include="**/Shipping.Functions.fs" />
+  </ItemGroup>
+</Project>
